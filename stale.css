@@ -1,0 +1,100 @@
+
+/*------------------haut de page--------------------*/
+
+
+/*------------------corps de la page-----------------*/
+body
+{
+	background-color: #00003D!important;
+}
+
+.hero-unit
+{
+background-color:#00003D;
+color: white;
+}
+
+.hero-unit h1
+{
+	font-size: 48px;
+	margin-bottom: 8px;
+	font-weight: 300;
+	line-height: 1;
+	color: inherit;
+	letter-spacing: -1px;
+	font-family: "helvetica nueve", sans-serif;
+	text-align: center;
+
+}
+p
+{
+	font-size: 1.5em;
+	font-family: "Comic Sans MS","@serifFontFamily";
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 50%;
+}
+
+/*------------------bas de page------*/
+#footer
+{
+	background-color: #00003D;
+	width: 100%;
+	height: 65px;
+	bottom: 0px;
+	position: absolute;
+}
+
+#content .postit 
+{
+	float: left;
+	padding: 70px 20px 50px;
+}
+
+#content .postit1 
+{
+	width: 226px;
+	height: 132px;
+	background-image: url('./image/postit1.png');
+}
+#content .postit2 
+{
+	width: 252px;
+	height: 150px;
+	background-image: url('./image/postit2.png');
+}
+#content .postit4 
+{
+	width: 209px;
+	height: 148px;
+	background-image: url('./image/postit3.png');
+}
+#content .postit3 
+{
+	float: left;
+	width: 208px;
+	height: 131px;
+	background-image: url('./image/postit4.png');
+}
+
+#content .postit .text 
+{
+	margin-top: 20px;
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg);
+	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+}
+
+#content .postit .marker 
+{
+	position: relative;
+	top: -78px;
+	left: 110px;
+	width: 32px;
+	height: 44px;
+	background-image: url('./image/punaise-blue.png');
+}

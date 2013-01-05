@@ -1,0 +1,72 @@
+html {
+font-size:100%;
+background:#000 url(images/bg.png) repeat-x;
+margin:0;
+padding:0
+}
+
+body {
+background-color:#444;
+width:900px;
+height:600px;
+margin:0 auto;
+padding:0;
+}
+
+.corps {
+color:#fff;
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+text-align:justify;
+line-height:1.4;
+background:#000 url(images/bg.png) repeat-x ;
+border:1px solid #444;
+width:700px;
+margin:0 auto;
+padding:20px
+}
+
+.corps h1 {
+color:#fff;
+font-family:"Times New Roman", Times, Serif;
+font-weight:normal;
+line-height:1.2;
+margin:0 0 .5em
+}
+
+a img{
+border:none;
+padding-bottom:3px;
+padding:0
+}
+
+#code{
+color:#7e8e94;
+font-family:"Times New Roman", Times, Serif;
+font-size:1.5em;
+text-transform:uppercase;
+text-align:center;
+}
+
+#securimage{
+width:75px;
+height:90px;
+}
+
+#siimage{
+width:219px
+}
+
+#bouton{
+width:54px;
+padding-top:6px;
+float:left
+}
+
+#submit{
+padding-top:15px
+}
+
+.rouge{
+color:red
+}
